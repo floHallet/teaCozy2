@@ -1,6 +1,6 @@
-# Tea Cozy
-> This is a CodeCademy student off-platform project. 
-> Live demo [_here_](https://flohallet.github.io/teaCozy/). <!-- If you have the project hosted somewhere, include the link here. -->
+# Tea Cozy 2
+> This is a Codecademy student, challenge project (with flexbox). Instead of a step-by-step tutorial, this project contains a series of open-ended requirements which describe the project.</br>
+> You can see a live demo [_here_](https://flohallet.github.io/teaCozy2/). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -12,7 +12,8 @@
 ## General Information
 - This is a fictional tea shop website.
 - The purpose of this project was to :
-    - Build a website from a [redline mock](https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-redline.jpg)
+    - Use flexbox to design and build a layout
+    - Use custom styles, such as images, colors and fonts.
     - Use Git version control and Github
     - Use command line
     - Develop locally on the computer
@@ -26,8 +27,10 @@
 
 
 ## Setup
-Just click [here](https://flohallet.github.io/teaCozy/) to see the page in your browser.
+Just click [here](https://flohallet.github.io/teaCozy2/) to see the page in your browser.
 
 
 ## Acknowledgements
 - https://www.codecademy.com/
+- https://fonts.google.com/
+- https://unsplash.com/
