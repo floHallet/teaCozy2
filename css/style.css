@@ -1,0 +1,213 @@
+/* CUSTOM FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Sans+Pro&display=swap');
+
+/* GENERAL STYLE */
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1f1f1f;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.75rem;
+  margin: 10px 0 20px 0;
+}
+
+h4, h5{
+  margin: 10px 0 10px 0;
+}   
+
+/* HEADER */
+header {
+    background-color: #006341;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 4rem;
+    width: 100%;
+    padding: 0.5rem;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.logo img{
+    height: 3rem;
+  }
+
+nav {
+    display: flex;
+    flex-grow: 1;
+    max-width: 35rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+nav a {
+    color: #f0f0f0;
+    padding-left: 10px;
+  }
+
+
+/* MISSION */  
+#jumbotron {
+    position: relative;
+    top: 4rem;
+    z-index: -1;
+    height: calc(100vh - 4rem);
+    background-image: url(https://images.unsplash.com/photo-1505275350441-83dcda8eeef5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  
+#jumbotron div {
+    background-color: rgba(0, 0, 0, 0.5);
+    
+  }
+
+#jumbotron h2 {
+  font-size: 4rem;
+  color: #f0f0f0
+  
+}
+
+#jumbotron h4 {
+  font-size: 1.5rem;
+  color: #f0f0f0;
+}    
+
+/* PRODUCTS */
+#products {
+  width: 100%;
+  min-height: 600px;
+  padding-top: 4rem;
+  margin-top: 2rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure {
+  flex: 1 1 400px;
+  max-width: 800px;
+}
+
+figure h4 {
+  margin: 0px;
+}
+
+.tea {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* LOCATIONS */
+#locations {
+  margin-top: 2rem;
+  min-height: 700px;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1497656387909-356336b9455f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-content:flex-start;
+  flex-wrap: wrap;
+}
+
+#locations h2 {
+  padding-top: 4rem;
+  width: 100%;
+  color: #f0f0f0;
+}
+
+.boxes {
+  min-height: 300px;
+  min-width: 300px;
+  color: #f0f0f0;
+  background-color: rgba(00, 63, 41, 0.5);
+  margin: 5px 20px 0 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+
+.boxes p , .no-margin {
+  margin: 0px;
+} 
+
+/* FOOTER */
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #797979;
+}
+
+#copyright {
+  text-align: left;
+  margin-bottom: 0px;
+  color: #797979;
+}
+
+@media only screen and (max-width: 340px) {
+  html {
+    font-size: 16px;
+  }
+  figure {
+    margin : 10px;
+  }
+  .boxes {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  html {
+    font-size: 18px;
+  }
+  figure {
+    margin : 10px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  html {
+    font-size: 24px;
+  }
+  figure {
+    min-width: 600px;
+    max-width: 1000px;
+  }
+}
