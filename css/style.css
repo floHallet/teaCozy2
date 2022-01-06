@@ -97,7 +97,7 @@ nav a:hover {
     top: 4rem;
     z-index: -1;*/
     height: calc(100vh - 4rem);
-    background-image: url(/img/photo-1505275350441-83dcda8eeef5.jpeg);
+    background-image: url('../img/photo-1505275350441-83dcda8eeef5.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -170,7 +170,7 @@ button:active {
   /*margin-top: 2rem;*/
   min-height: 700px;
   width: 100%;
-  background-image: url(/img/photo-1497656387909-356336b9455f.jpeg);
+  background-image: url('../img/photo-1497656387909-356336b9455f.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
